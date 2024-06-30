@@ -19,7 +19,7 @@ mkdir build; cd build
 PICO_SDK_PATH=/path/to/pico-sdk cmake ..
 make
 ```
-Once the build is complete, drop the generated sd-boot.uf2 firmware onto the Pico mounted in BOOTSEL mode to write it.
+Once the build is complete, drop the generated `sdboot.uf2` firmware onto the Pico mounted in BOOTSEL mode to write it.
 
 ## SD Card Application Build and Deployment
 
