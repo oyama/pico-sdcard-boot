@@ -38,8 +38,8 @@ pico_sdk_init()
 
 add_executable(hello main.c)
 target_link_libraries(hello PRIVATE pico_stdlib)
-pico_enable_stdio_usb(sdboot 1)
-pico_add_extra_outputs(sdboot)
+pico_enable_stdio_usb(hello 1)
+pico_add_extra_outputs(hello)
 
 enable_sdcard_app(hello)
 ```
