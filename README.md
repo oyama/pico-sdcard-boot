@@ -21,7 +21,7 @@ make
 ```
 Once the build is complete, drop the generated sd-boot.uf2 firmware onto the Pico mounted in BOOTSEL mode to write it.
 
-## Application Build and Deployment on SD Card
+## SD Card Application Build and Deployment
 
 This section explains how to build and deploy applications on an SD card. Below is a simple example of a CMakeLists.txt for an application.
 
